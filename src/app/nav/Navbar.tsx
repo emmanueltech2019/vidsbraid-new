@@ -18,17 +18,16 @@ function Navbar() {
   useEffect(() => {
     const changeNavbarBackground = () => {
       if (window.scrollY >= 20) {
-        setNavbarBg(false); // Change background color on scroll
+        setNavbarBg(false);
       } else {
-        setNavbarBg(true); // Reset background color
+        setNavbarBg(true);
       }
     };
-
-    document.addEventListener('scroll', changeNavbarBackground);
-
-    return () => {
-      document.removeEventListener('scroll', changeNavbarBackground);
-    };
+  
+    window.addEventListener('scroll', changeNavbarBackground);
+  
+    // Cleanup function to remove event listener on unmount
+    return () => window.removeEventListener('scroll', changeNavbarBackground);
   }, []);
 
     return (
