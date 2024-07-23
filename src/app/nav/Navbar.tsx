@@ -1,36 +1,36 @@
 // Import statements and React import remain the same
 "use client"
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image'; // Correct import statement
 
 import logoImg from './img/image.png';
 import { Icon } from '@iconify/react';
-import Link from 'next/link'
+import Link from 'next/link';
 
 function Navbar() {
-    const [toggle, setToggle] = useState(false);
-    const [navbarBg, setNavbarBg] = useState(true);
+  const [toggle, setToggle] = useState(false);
+  const [navbarBg, setNavbarBg] = useState(true);
 
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
 
-    const handleToggle = () => {
-        setToggle(!toggle);
-    }
-    
-    useEffect(() => {
-        const changeNavbarBackground = () => {
-            if (window.scrollY >= 20) {
-                setNavbarBg(false); // Change background color on scroll
-            } else {
-                setNavbarBg(true); // Reset background color
-            }
-        }
+  useEffect(() => {
+    const changeNavbarBackground = () => {
+      if (window.scrollY >= 20) {
+        setNavbarBg(false); // Change background color on scroll
+      } else {
+        setNavbarBg(true); // Reset background color
+      }
+    };
 
-        document.addEventListener('scroll', changeNavbarBackground);
+    document.addEventListener('scroll', changeNavbarBackground);
 
-        return () => {
-            document.removeEventListener('scroll', changeNavbarBackground);
-        }
-    }, []);
+    return () => {
+      document.removeEventListener('scroll', changeNavbarBackground);
+    };
+  }, []);
+
     return (
         <div className="overflow-hidden">
             <section className={navbarBg ? 'fixed w-full z-[999] bg-[#f9f1f301] transition-all duration-500 ease-in-out' : 'p-4 fixed w-full z-[999] bg-[#f9f1f3] transition-all duration-500 ease-in-out'}>
