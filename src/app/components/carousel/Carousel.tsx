@@ -37,7 +37,7 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
             }`}
           >
             <div className="md:p-8 p-3 bg-[#f2d8d0] flex flex-col justify-center align-center w-screen md:w-fit" >
-              <p className="mt-2 text-gray-500 text-center ">"{item.message}"</p>
+              <p className="mt-2 text-gray-500 text-center ">&quot;{item.message}&quot;</p>
               <div className="mt-4 text-sm font-semibold text-center text-gray-900">{item.name}</div>
             </div>
             <img className="md:w-[50vw] md:h-[50vh] h-[0px] w-full  object-cover" src={item.imageSrc} alt={item.altText} />
