@@ -81,21 +81,21 @@ function Navbar() {
     setToggle(!toggle);
   };
 
-  useEffect(() => {
-    const changeNavbarBackground = () => {
-      if (window.scrollY >= 20) {
-        setNavbarBg(false);
-      } else {
-        setNavbarBg(true);
-      }
-    };
+//   useEffect(() => {
+//     const changeNavbarBackground = () => {
+//       if (window.scrollY >= 20) {
+//         setNavbarBg(false);
+//       } else {
+//         setNavbarBg(true);
+//       }
+//     };
 
-    window.addEventListener('scroll', changeNavbarBackground);
+//     window.addEventListener('scroll', changeNavbarBackground);
     
-    return () => {
-      window.removeEventListener('scroll', changeNavbarBackground);
-    };
-  }, []);
+//     return () => {
+//       window.removeEventListener('scroll', changeNavbarBackground);
+//     };
+//   }, []);
 
   return (
     <div className="overflow-hidden">
