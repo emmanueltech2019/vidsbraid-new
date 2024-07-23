@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #F9F1F3
+  ;
+}
+p{
+  text-transform: capitalize !important
+}
+.blurred-bg {
+  background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Apply 5px blur */
+  padding: 10px;
+}
+
+
+
+.highlights {
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 20px;
+  background-color: transparent; /* Light gray background */
+  border-radius: 5px;
+}
+
+.highlights h2 {
+  margin-bottom: 10px;
+  /* font-size: 20px; */
+  font-weight: 500;
+}
+
+.highlight-list {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.highlight-list li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #800020;
+  color: #800020;
+  font-size: 13px;
+  /* background-color: #e0e0e0; Lighter gray for highlights */
+}
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; /* Spacing between columns */
+  text-align: center;
+  padding: 20px;
+}
+
+.service-column {
+  background-color: #f2d8d0;
+  padding: 20px;
+}
+
+.service-column h3 {
+  margin-bottom: 10px;
+  color: #800020;
+}
+
+.service-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-column li {
+  margin-bottom: 5px;
+}
+
+/* Responsive media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr; /* Stack columns on small screens */
+  }
+}
+
+
+
+.gallery {
+  /* column-count: 4; */
+  /* column-gap: 1em; */
+}
+
+.gallery-item {
+  break-inside: avoid !important;
+  margin-bottom: 1em;
+}
+
+.gallery-item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+      column-count: 3;
+  }
+}
+
+@media (max-width: 992px) {
+  .gallery {
+      column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+      column-count: 1;
+  }
+}
