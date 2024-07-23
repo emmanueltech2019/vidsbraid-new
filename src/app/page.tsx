@@ -169,15 +169,15 @@ export default function Home() {
               <h2 className="text-[#C53D13] font-[700] text-[35px]">Natural hair specialist</h2>
 
               <p className="font-sans text-[#323031] text-[15px] md:text-[17px] leading-[29px] font-[500] mt-[1rem] md:w-[60%]">
-                VID Hair Braiding isn't your average salon – it's an elegant experience located right here in Sandy Springs, Georgia. For over 18 years, we've been weaving our magic in the natural hair world.
+                VID Hair Braiding isn&apos;t your average salon – it&apos;s an elegant experience located right here in Sandy Springs, Georgia. For over 18 years, we&apos;ve been weaving our magic in the natural hair world.
               </p>
               <p className="font-sans text-[#323031] text-[15px] md:text-[17px] leading-[29px] font-[500] mt-[1rem] md:w-[60%]">
-                Our braid boss, Patricia, isn't just a hair stylist – she's a passionate hair artist. Her mission? To create a show-stopping style that reflects YOU and makes you feel like a total boss babe (or dude!)
+                Our braid boss, Patricia, isn&apos;t just a hair stylist – she&apos;s a passionate hair artist. Her mission? To create a show-stopping style that reflects YOU and makes you feel like a total boss babe (or dude!)
               </p>
 
               <p className="font-sans text-[#323031] text-[15px] md:text-[17px] leading-[29px] font-[500] mt-[1rem] md:w-[60%]">
 
-                Every visit at VID is a celebration of your unique beauty and rocking style. Let's braid some magic together
+                Every visit at VID is a celebration of your unique beauty and rocking style. Let&apos;s braid some magic together
               </p>
               <Link href="tel:(404) 512-8264">
               <button className="px-8 my-3 text-[14px] md:text-[20px] bg-transparent border border-[#800020] text-[#800020] rounded-lg h-[50px] flex items-center gap-2">
