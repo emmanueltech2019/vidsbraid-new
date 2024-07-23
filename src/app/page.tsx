@@ -224,12 +224,12 @@ export default function Home() {
       </section>
       <HairGallery />
 
-        {
+        {/* {
           showModal ? <Modal isOpen={true} onClose={handleCloseModal}>
             <h2 className="text-[30px] pb-10 text-center">Book Appointment</h2>
           <ContactForm/>
          </Modal>:null
-        }
+        } */}
       
     </div>
 
