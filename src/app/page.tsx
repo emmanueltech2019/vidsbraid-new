@@ -111,13 +111,13 @@ export default function Home() {
     setShowModal(true)
   }
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // duration of the animation
-      easing: 'ease-in-out', // easing function
-      once: true, // whether animation should happen only once - while scrolling down
-    });
-  }, []);
+  // useEffect(() => {
+  // }, []);
+  AOS.init({
+    duration: 1000, // duration of the animation
+    easing: 'ease-in-out', // easing function
+    once: true, // whether animation should happen only once - while scrolling down
+  });
 
   return (
     <>
