@@ -104,7 +104,7 @@ import React from 'react';
 
 const HairGallery: React.FC = () => {
   return (
-    <div className="p-4 bg-white"   id="STYLES">
+    <div className="p-4 mt-10 bg-white"   id="STYLES">
               <div className="text-center mb-8 h-fit py-10 bg-pink-50 break-inside-avoid">
           <h1 className="text-3xl font-bold text-[#800020]">Hair Gallery</h1>
           <p className="text-gray-600 py-3">View more on Instagram</p>

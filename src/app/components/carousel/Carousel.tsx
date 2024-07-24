@@ -41,7 +41,7 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
               <p className="mt-2 text-gray-500 text-center ">&quot;{item.message}&quot;</p>
               <div className="mt-4 text-sm font-semibold text-center text-gray-900">{item.name}</div>
             </div>
-            <img className="md:w-[50vw] md:h-[50vh] h-[0px] w-full  object-cover" src={item.imageSrc} alt={item.altText} />
+            <img className="md:w-[50vw] md:h-[50vh] h-[50vh] w-full  object-cover" src={item.imageSrc} alt={item.altText} />
           </div>
         ))}
       </div>
