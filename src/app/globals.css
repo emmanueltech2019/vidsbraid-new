@@ -1,10 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'animate.css'; 
 
 body{
   background-color: #F9F1F3
   ;
+}
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 p{
   text-transform: capitalize !important
@@ -15,7 +19,20 @@ p{
   padding: 10px;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 
+.animate__fadeInUp {
+  animation: fadeInUp 1s ease-in-out forwards;
+}
 
 .highlights {
   text-align: left;

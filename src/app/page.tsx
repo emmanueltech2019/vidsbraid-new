@@ -7,9 +7,9 @@ import Image from "next/image";
   import HairstyleGallery from "./components/hairstyle/HairStyle";
   import TestimonialCard from "./components/testimonial/TestimonialCard";
   import Carousel from "./components/carousel/Carousel";
-  import 'aos/dist/aos.css'; // Import AOS styles
+  // import 'aos/dist/aos.css'; // Import AOS styles
   // import AOS from 'aos';
-  import { useEffect } from 'react';
+  import { useEffect, useState } from 'react';
   import Modal from "./components/modal/Modal";
   import { useForm, ValidationError } from '@formspree/react';
   import Link from 'next/link'
@@ -44,7 +44,7 @@ import Image from "next/image";
         return <p>Thanks for contacting, we will get back to you!</p>;
     }
     return (
-      <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+      <form onSubmit={handleSubmit} className="flex flex-col space-y-4 animate__fadeInUp">
       <label htmlFor="email" className="text-sm font-medium">
         Email Address
       </label>
@@ -97,19 +97,19 @@ import Image from "next/image";
       slidesToScroll: 1,
     };
 
-    // const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(false);
 
-    // const handleOpenModal = () => setShowModal(true);
-    // const handleCloseModal = () => setShowModal(false);
+    const handleOpenModal = () => setShowModal(true);
+    const handleCloseModal = () => setShowModal(false);
 
     const [state, handleSubmit] = useForm("xwpevqnb");
     if (state.succeeded) {
         return <p>Thanks for contacting, we will get back to you!</p>;
     }
 
-    // const handleModal = () =>{
-    //   setShowModal(true)
-    // }
+    const handleModal = () =>{
+      setShowModal(true)
+    }
 
     // useEffect(() => {
     // }, []);
@@ -122,21 +122,21 @@ import Image from "next/image";
     return (
       <>
       <div>
-        <section className="hero" >
+        <section className="hero animate__fadeInUp" >
           <div className="md:flex flex-row-reverse items-center">
             <div>
-              <Image src={heroImg} className="w-full" alt="alt" width={813} height={994} />
+              <Image src={heroImg} className="w-full " alt="alt" width={813} height={994} />
             </div>
             <header  className="px-4 md:mx-[2rem] md:w-[40%]">
               <h1 className="text-[#1A0006] text-[35px] md:text-[65px] font-[700] leading-[39.44px] md:leading-[69.44px]">
                 <span className="text-[#C53D13]">ELEVATE</span> YOUR HAIR GAME
               </h1>
-              <p  className="text-[#323031] text-[18px] md:text-[24px] md:w-[80%] font-[400] font-sans my-2 md:my-6">
+              <p  className="text-[#323031] text-[16px] md:text-[24px] md:w-[80%] font-[400] font-sans my-2 md:my-6">
                 Experience exquisite hair braiding from intricate twists to bold dreadlocks.</p>
 
               <section className="highlights">
-                <h2 className="text-brand-shadow text-[25px] ">Unlock your signature appearance.</h2>
-                <ul className="highlight-list text-brand-shadow Capitalize" >
+                <h2 className="text-brand-shadow text-[25px] pt-3">Unlock your signature appearance.</h2>
+                <ul className="highlight-list text-brand-shadow Capitalize text-[16px]" >
                   <li>Satisfaction guaranteed</li>
                   <li>Natural hair-friendly</li>
                   <li>Safe braiding techniques</li>
@@ -151,7 +151,7 @@ import Image from "next/image";
 
               <div className="button my-2 flex">
                 <button className="px-8 py-3 text-[#FEFCFD] text-[14px] md:text-[20px] bg-[#800020] rounded-lg h-[50px] flex items-center gap-2" 
-                // onClick={()=>setShowModal(true)}
+                onClick={()=>setShowModal(true)}
                 >
                   <Icon icon="ic:outline-date" className='text-[#FEFCFD] text-[18px]'></Icon>
                   BOOK APPOINTMENT
@@ -226,12 +226,12 @@ import Image from "next/image";
         </section>
         <HairGallery />
 
-          {/* {
-            showModal ? <Modal isOpen={true} onClose={handleCloseModal}>
+          {
+            showModal ? <Modal  isOpen={true} onClose={handleCloseModal}>
               <h2 className="text-[30px] pb-10 text-center">Book Appointment</h2>
             <ContactForm/>
           </Modal>:null
-          } */}
+          }
         
       </div>
 
@@ -266,7 +266,7 @@ import Image from "next/image";
 
                           <div className="button text-center my-7 flex justify-center ">
                               <button className="px-8 py-3 text-[#FEFCFD] bg-[#800020] rounded-lg h-[50px] flex items-center gap-2" 
-                              // onClick={()=>setShowModal(true)}
+                              onClick={()=>setShowModal(true)}
                               
                               >
                               <Icon icon="ic:outline-whatsapp"  className='text-[#FEFCFD]'></Icon>
