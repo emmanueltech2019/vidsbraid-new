@@ -5,9 +5,9 @@ import Navbar from "./nav/Navbar";
 import Footer from './footer/Footer';
 
 const inter = Inter({ subsets: ["latin"] });
-const cinzel = Cinzel({
-  subsets: ["latin"]
-});
+// const cinzel = Cinzel({
+//   subsets: ["latin"]
+// });
 
 export const metadata: Metadata = {
   title: "Best Rated Hair Braids Salon - VidBraids Artistic Hair Braiding Services",

@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
@@ -18,7 +19,7 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
   const prevSlide = () => {
     const newIndex = currentIndex === 0 ? items.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
-  };
+  }; 
 
   const nextSlide = () => {
     const newIndex = currentIndex === items.length - 1 ? 0 : currentIndex + 1;
