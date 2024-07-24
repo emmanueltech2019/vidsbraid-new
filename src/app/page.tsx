@@ -14,6 +14,7 @@ import Image from "next/image";
   import { useForm, ValidationError } from '@formspree/react';
   import Link from 'next/link'
 
+
   const items = [
     {
       imageSrc: 'https://res.cloudinary.com/wise-solution-inc/image/upload/v1721739176/customer_img_cont_buerti.png',
@@ -132,7 +133,7 @@ import Image from "next/image";
                 <span className="text-[#C53D13]">ELEVATE</span> YOUR HAIR GAME
               </h1>
               <p  className="text-[#323031] text-[16px] md:text-[24px] md:w-[80%] font-[400] font-sans my-2 md:my-6">
-                Experience exquisite hair braiding from intricate twists to bold dreadlocks.</p>
+                Experience exquisite hair braiding, from intricate twists to bold dreadlocks.</p>
 
               <section className="highlights">
                 <h2 className="text-brand-shadow text-[25px] pt-3">Unlock your signature appearance.</h2>
@@ -154,7 +155,7 @@ import Image from "next/image";
                 onClick={()=>setShowModal(true)}
                 >
                   <Icon icon="ic:outline-date" className='text-[#FEFCFD] text-[18px]'></Icon>
-                  BOOK APPOINTMENT
+                  BOOK AN APPOINTMENT
                 </button>
               </div>
             </header>
@@ -168,7 +169,7 @@ import Image from "next/image";
               </div>
 
               <div className="my-5">
-                <h2 className="text-[#C53D13] font-[700] text-[35px]">Natural hair specialist</h2>
+                <h2 className="text-[#C53D13] font-[700] text-[35px] uppercase">Natural hair specialist</h2>
 
                 <p className="font-sans text-[#323031] text-[15px] md:text-[17px] leading-[29px] font-[500] mt-[1rem] md:w-[60%]">
                   VID Hair Braiding isn&apos;t your average salon – it&apos;s an elegant experience located right here in Sandy Springs, Georgia. For over 18 years, we&apos;ve been weaving our magic in the natural hair world.
@@ -195,6 +196,10 @@ import Image from "next/image";
           <div className="service-column">
             <h3 className="font-bold text-[20px]">Hairstyles</h3>
             <ul>
+              <li className="m-0">Box braids</li>
+              <li className="m-0">Boho knotless Braids</li>
+              <li>Knotless braids</li>
+              <li>Cornrows</li>
               <li>Faux locs braids</li>
               <li>Twist braids</li>
               <li>Dreadlocks</li>
@@ -203,8 +208,8 @@ import Image from "next/image";
             </ul>
           </div>
           <div className="service-column">
-            <h3 className="font-bold text-[20px]">Services Offered</h3>
-            <ul>
+            <h3 className="font-bold text-[20px]  ">Services Offered</h3>
+            <ul className="flex flex-col md:gap-6">
               <li>Hair extension services</li>
               <li>Hair styling services</li>
               <li>Dreadlock twists</li>
@@ -256,11 +261,11 @@ import Image from "next/image";
                               </li>
                               <li>
                                   <h6 className='md:text-[20px] font-[700] leading-[30px]'  data-aos-delay="100" data-aos-duration="1000">PHONE NUMBER</h6>
-                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000">(404) 512-8264</p>
+                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000"><a href="tel:(404) 512-8264">(404) 512-8264</a></p>
                               </li>
                               <li>
                                   <h6 className='md:text-[20px] font-[700] leading-[30px]'  data-aos-delay="100" data-aos-duration="1000">EMAIL</h6>
-                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000">edoka.harris@gmail.com</p>
+                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500] lowercase' ><a className="lowercase" href="mailto:edoka.harris@gmail.com">edoka.harris@gmail.com</a></p>
                               </li>
                           </ul>
 
@@ -269,8 +274,8 @@ import Image from "next/image";
                               onClick={()=>setShowModal(true)}
                               
                               >
-                              <Icon icon="ic:outline-whatsapp"  className='text-[#FEFCFD]'></Icon>
-                                  BOOK APPOINTMENT
+                              {/* <Icon icon="ic:outline-whatsapp"  className='text-[#FEFCFD]'></Icon> */}
+                                  BOOK ONLINE
                               </button>
                           </div>
                       </div>

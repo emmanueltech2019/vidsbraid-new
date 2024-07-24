@@ -13,6 +13,9 @@ html {
 p{
   text-transform: capitalize !important
 }
+li{
+  margin: 0 !important;
+}
 .blurred-bg {
   background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent white background */
   backdrop-filter: blur(5px); /* Apply 5px blur */
@@ -49,14 +52,13 @@ p{
 }
 
 .highlight-list {
-  list-style: none; /* Remove default bullet points */
   padding: 0;
   margin: 0;
 }
 
-.highlight-list li {
+ul.highlight-list li {
   display: inline-block;
-  margin: 5px;
+  margin: 5px !important;
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid #800020;

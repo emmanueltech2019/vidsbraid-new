@@ -33,7 +33,7 @@ function Footer() {
                         <div className="button text-center my-7 flex justify-center ">
                             <button className="px-8 py-3 text-[#FEFCFD] bg-[#800020] rounded-lg h-[50px] flex items-center gap-2">
                             <Icon icon="ic:outline-whatsapp"  className='text-[#FEFCFD]'></Icon>
-                                BOOK APPOINTMENT
+                                BOOK AN APPOINTMENT
                             </button>
                         </div>
                     </div>
