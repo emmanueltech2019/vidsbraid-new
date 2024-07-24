@@ -64,11 +64,11 @@ Book your crochet braid appointment today!
 
 const HairstyleGallery: React.FC = () => {
   return (
-    <div className="bg-white" data-aos="fade-up">
+    <div className="bg-white" >
       <div className="grid grid-cols-1 md:grid-cols-4">
 
         {images.map((image, index) => (
-          <div key={index} className="relative overflow-hidden shadow-lg flex flex-col" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div key={index} className="relative overflow-hidden shadow-lg flex flex-col"  data-aos-delay="100" data-aos-duration="1000">
             <img src={image.src} alt={image.alt} className="md:w-[33vw] md:h-[50vh] object-cover" />
             <div className="absolute inset-0 bg-opacity-50 flex items-center justify-center">
               <span className="text-white text-2xl font-bold blurred-bg">{image.label}</span>

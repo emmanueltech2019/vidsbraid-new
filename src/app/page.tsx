@@ -122,21 +122,21 @@ import Image from "next/image";
     return (
       <>
       <div>
-        <section className="hero" data-aos="fade-up">
+        <section className="hero" >
           <div className="md:flex flex-row-reverse items-center">
             <div>
               <Image src={heroImg} className="w-full" alt="alt" width={813} height={994} />
             </div>
-            <header data-aos="fade" className="px-4 md:mx-[2rem] md:w-[40%]">
+            <header  className="px-4 md:mx-[2rem] md:w-[40%]">
               <h1 className="text-[#1A0006] text-[35px] md:text-[65px] font-[700] leading-[39.44px] md:leading-[69.44px]">
                 <span className="text-[#C53D13]">ELEVATE</span> YOUR HAIR GAME
               </h1>
-              <p data-aos="fade" className="text-[#323031] text-[18px] md:text-[24px] md:w-[80%] font-[400] font-sans my-2 md:my-6">
+              <p  className="text-[#323031] text-[18px] md:text-[24px] md:w-[80%] font-[400] font-sans my-2 md:my-6">
                 Experience exquisite hair braiding from intricate twists to bold dreadlocks.</p>
 
               <section className="highlights">
                 <h2 className="text-brand-shadow text-[25px] ">Unlock your signature appearance.</h2>
-                <ul className="highlight-list text-brand-shadow Capitalize" data-aos="fade">
+                <ul className="highlight-list text-brand-shadow Capitalize" >
                   <li>Satisfaction guaranteed</li>
                   <li>Natural hair-friendly</li>
                   <li>Safe braiding techniques</li>
@@ -160,7 +160,7 @@ import Image from "next/image";
             </header>
           </div>
         </section>
-        <section className="gallery bg-[#F3D8D0]" data-aos="fade">
+        <section className="gallery bg-[#F3D8D0]" >
           <div className="lg:max-w-[95%] m-auto p-4 md:p-6">
             <header className="md:flex flex-row-reverse items-center">
               <div>
@@ -191,7 +191,7 @@ import Image from "next/image";
             </header>
           </div>
         </section>
-        <section className="services-grid " data-aos="fade">
+        <section className="services-grid " >
           <div className="service-column">
             <h3 className="font-bold text-[20px]">Hairstyles</h3>
             <ul>
@@ -218,7 +218,7 @@ import Image from "next/image";
           message="Trisha was the best she got my hair looking so good I feel so good about myself today thanks Trisha I’m definitely coming back girl.. Keep it up😊😊😊"
           imageSrc="/path/to/image.jpg" // Replace with the actual path to the image
         /> */}
-        <section className="bg-[#f9f1f3] w-screen h-[75vh]" data-aos="fade-up">
+        <section className="bg-[#f9f1f3] w-screen h-[75vh]" >
           <div className="flex justify-center items-center  ">
             <Carousel items={items} />
           </div>
@@ -241,26 +241,26 @@ import Image from "next/image";
               <section className="footer" id="CONTACT">
                   <div className='lg:max-[95%] p-4'>
                       <header className='text-center'>
-                          <h2 className='text-[#c53d13] text-[20px] md:text-[36px] leading-[50.4px] font-[700]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">LET US TRANSFORM YOUR HAIR</h2>
+                          <h2 className='text-[#c53d13] text-[20px] md:text-[36px] leading-[50.4px] font-[700]'  data-aos-delay="100" data-aos-duration="1000">LET US TRANSFORM YOUR HAIR</h2>
                       </header>
 
                       <div className="footer-info my-5">
                           <ul className='text-center text-[#270c04] grid gap-4'>
                               <li>
-                                  <h6 className='md:text-[20px] font-[700] leading-[30px]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">OPENING HOURS</h6>
-                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Monday - Sunday: 9:00AM - 6:00PM</p>
+                                  <h6 className='md:text-[20px] font-[700] leading-[30px]'  data-aos-delay="100" data-aos-duration="1000">OPENING HOURS</h6>
+                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000">Monday - Sunday: 9:00AM - 6:00PM</p>
                               </li>
                               <li>
-                                  <h6 className='md:text-[20px] font-[700] leading-[30px]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">SHOP LOCATION</h6>
-                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">8849 Roswell Road, Sandy Springs, Georgia 30350, United States</p>
+                                  <h6 className='md:text-[20px] font-[700] leading-[30px]'  data-aos-delay="100" data-aos-duration="1000">SHOP LOCATION</h6>
+                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000">8849 Roswell Road, Sandy Springs, Georgia 30350, United States</p>
                               </li>
                               <li>
-                                  <h6 className='md:text-[20px] font-[700] leading-[30px]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">PHONE NUMBER</h6>
-                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">(404) 512-8264</p>
+                                  <h6 className='md:text-[20px] font-[700] leading-[30px]'  data-aos-delay="100" data-aos-duration="1000">PHONE NUMBER</h6>
+                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000">(404) 512-8264</p>
                               </li>
                               <li>
-                                  <h6 className='md:text-[20px] font-[700] leading-[30px]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">EMAIL</h6>
-                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">edoka.harris@gmail.com</p>
+                                  <h6 className='md:text-[20px] font-[700] leading-[30px]'  data-aos-delay="100" data-aos-duration="1000">EMAIL</h6>
+                                  <p className='text-[#323031] text-[14px] md:text-[16px] leading-[32px] font-[500]'  data-aos-delay="100" data-aos-duration="1000">edoka.harris@gmail.com</p>
                               </li>
                           </ul>
 

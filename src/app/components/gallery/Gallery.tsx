@@ -57,7 +57,7 @@
 
 // const HairGallery: React.FC = () => {
 //   return (
-//     <div className="p-4 bg-white" data-aos="fade-up">
+//     <div className="p-4 bg-white" >
       
 //       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 //       <div className="rounded-lg overflow-hidden shadow-lg  break-inside-avoid">
@@ -104,7 +104,7 @@ import React from 'react';
 
 const HairGallery: React.FC = () => {
   return (
-    <div className="p-4 bg-white" data-aos="fade-up"  id="STYLES">
+    <div className="p-4 bg-white"   id="STYLES">
               <div className="text-center mb-8 h-fit py-10 bg-pink-50 break-inside-avoid">
           <h1 className="text-3xl font-bold text-[#800020]">Hair Gallery</h1>
           <p className="text-gray-600 py-3">View more on Instagram</p>
@@ -119,71 +119,71 @@ const HairGallery: React.FC = () => {
           </a>
         </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 gallery">
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687462/gallery1_uzix3r.jpg" alt="Hair style" className="w-full h-full object-cover gallery-item" />
         </div>
 
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687469/gallery6_mjhi75.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687473/gallery12_ld0kgt.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687468/gallery18_bsosa3.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687463/gallery2_jinq8c.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687470/gallery7_xrqtqk.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687462/gallery13_qu2rxt.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687468/gallery19_bw5ugf.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
 
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687465/gallery3_apqih0.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687471/gallery8_wbye7j.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687469/gallery14_iyi4uj.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687470/gallery20_ard2wv.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
 
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687468/gallery4_mdijjy.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687471/gallery9_h4swjp.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687465/gallery15_xcko21.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687471/gallery21_sokltm.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
 
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687468/gallery5_z8pszx.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687471/gallery10_vkn5gp.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687463/gallery16_zxp89r.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+         <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687470/gallery22_dcumao.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
-        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid"  data-aos-delay="100" data-aos-duration="1000">
           <img src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1721687473/gallery11_hifc4c.jpg" alt="Hair style" className="w-full h-full object-cover" />
         </div>
          {/* <div className="rounded-lg overflow-hidden shadow-lg break-inside-avoid">
